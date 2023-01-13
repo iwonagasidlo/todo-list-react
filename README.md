@@ -1,8 +1,19 @@
 # Task list
 
-Description: This project was made so you can do a simple to-do list. Just add a task and click on the button and it will show up in the list down below. Add multiple tasks, mark them as done or remove from the list. Enjoy! **This project was made in polish.**
+This project was made so you can do a simple to-do list. Just add a task, click on the button and it will show up in the list below. Add multiple tasks, mark them as done or remove from the list. Enjoy! **This project was made in polish.**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Zrzut ekranu 2023-01-13 112947](https://user-images.githubusercontent.com/121032802/212298519-645dce1d-3535-49c5-beee-39803f62b499.png)
+
+## Demo
+https://iwonagasidlo.github.io/todo-list-react/
+
+## Technologies used in this project:
+- HTML
+- CSS 
+- Java Script
+- BEM
 
 ## Available Scripts
 
