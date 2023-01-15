@@ -4,6 +4,9 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
+import { hello } from "./utils/hello";
+
+hello();
 
 const tasks = [
   { id: 1, content: "przejść na Reacta", done: false },
