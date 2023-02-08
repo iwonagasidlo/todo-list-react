@@ -42,12 +42,12 @@
 }
 
 .tasks__button--remove:hover {
-    background-color: hsl(357, 74%, 62%);
+    background-color: hsl(357, 74%, 61%);
     transition: 0.5s;
 }
 
 .tasks__button--remove:active {
-    background-color: hsl(355, 74%, 70%);
+    background-color: hsl(355, 74%, 68%);
     transition: 0.5s;
 }
 
