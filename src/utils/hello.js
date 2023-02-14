@@ -1,3 +1,3 @@
 export const hello = () => {
-    console.log("Cześć!");
+    console.log("Witam na mojej stronie!");
 }
