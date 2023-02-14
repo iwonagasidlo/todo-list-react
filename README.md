@@ -4,7 +4,7 @@ This project was made so you can do a simple to-do list. Just add a task, click 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Zrzut ekranu 2023-01-13 112947](https://user-images.githubusercontent.com/121032802/212298519-645dce1d-3535-49c5-beee-39803f62b499.png)
+![Zrzut ekranu_20230214_120553](https://user-images.githubusercontent.com/121032802/218719295-ce35f6ba-d9ad-4777-95f1-78f0afc69950.png)
 
 ## Demo
 https://iwonagasidlo.github.io/todo-list-react/
