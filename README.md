@@ -13,7 +13,12 @@ https://iwonagasidlo.github.io/todo-list-react/
 - HTML
 - CSS 
 - Java Script
+- React
 - BEM
+- Styled Components
+- React Hooks: useState, useEffect, useRef, custom hooks
+- Immutability
+- Global Styles & Theme
 
 ## Available Scripts
 
