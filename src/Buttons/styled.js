@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const PrimaryButton = styled.div`
+export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     font-size: 16px;
 `;
 
-export const OtherButtons = styled.button`
+export const Button = styled.button`
     background: transparent;
     color: ${({ theme }) => theme.color.teal};
     border: none;
