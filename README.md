@@ -14,6 +14,7 @@ https://iwonagasidlo.github.io/todo-list-react/
 - CSS 
 - Java Script
 - React
+- Redux
 - BEM
 - Styled Components
 - React Hooks: useState, useEffect, useRef, custom hooks
