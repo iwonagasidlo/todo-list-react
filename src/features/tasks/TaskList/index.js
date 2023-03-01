@@ -1,31 +1,40 @@
+import { useSelector, useDispatch } from "react-redux";
 import { List, Item, Content, Button } from "./styled.js";
+import { selectTasks, toggleTaskDone, removeTask, selectHideDone } from "../tasksSlice.js";
 
-const TaskList = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
-    <List>
-        {tasks.map(task => (
-            <Item
-                key={task.id}
-                hidden={task.done && hideDone}
-            >
-                <Button
-                    toggleDone
-                    onClick={() => toggleTaskDone(task.id)}
+const TaskList = () => {
+    const tasks = useSelector(selectTasks)
+    const hideDone = useSelector(selectHideDone);
+
+    const dispatch = useDispatch();
+
+    return (
+        <List>
+            {tasks.map(task => (
+                <Item
+                    key={task.id}
+                    hidden={task.done && hideDone}
                 >
-                    {task.done ? "✔" : ""}
-                </Button>
-                <Content
-                    done={task.done}>
-                    {task.content}
-                </Content>
-                <Button
-                    remove
-                    onClick={() => removeTask(task.id)}
-                >
-                    🗑
-                </Button>
-            </Item>
-        ))}
-    </List>
-);
+                    <Button
+                        toggleDone
+                        onClick={() => dispatch(toggleTaskDone(task.id))}
+                    >
+                        {task.done ? "✔" : ""}
+                    </Button>
+                    <Content
+                        done={task.done}>
+                        {task.content}
+                    </Content>
+                    <Button
+                        remove
+                        onClick={() => dispatch(removeTask(task.id))}
+                    >
+                        🗑
+                    </Button>
+                </Item>
+            ))}
+        </List>
+    )
+};
 
 export default TaskList;
