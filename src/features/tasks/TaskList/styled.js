@@ -32,10 +32,12 @@ export const Button = styled.button`
 
     ${({ toggleDone }) => toggleDone && css`
         background-color: ${({ theme }) => theme.color.green};
+        color: ${({ theme }) => theme.color.white};
 
         &:hover {
             filter: brightness(110%);
             transition: 0.5s;
+            cursor: pointer;
         }
 
         &:active {
@@ -46,10 +48,12 @@ export const Button = styled.button`
 
     ${({ remove }) => remove && css`
         background-color: ${({ theme }) => theme.color.red};
+        color: ${({ theme }) => theme.color.white};
 
         &:hover {
             filter: brightness(110%);
             transition: 0.5s;
+            cursor: pointer;
         }
 
         &:active {
